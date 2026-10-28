@@ -7,5 +7,4 @@ jobs:
   - uses: actions/checkout@v4
   - name: Проверка файлов
   run: ls -la
-  - name: Заведомо падающий шаг
-  run: exit 1
+
